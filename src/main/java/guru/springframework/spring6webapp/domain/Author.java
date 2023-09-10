@@ -6,7 +6,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity
-public class git Author {
+public class Author {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
